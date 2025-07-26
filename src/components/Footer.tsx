@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
 
         {/* Kolom 3: Kontak & Media Sosial */}
         <div>
-          <h4 className="text-lg font-semibold mb-4">Hubungi Kami</h4>
+          <h4 className="text-lg font-semibold mb-4">Hubungi Kami Untuk Demo</h4>
           {footerDetails.email && <a href={`mailto:${footerDetails.email}`} className="block text-foreground-accent hover:text-foreground">Email: {footerDetails.email}</a>}
           {footerDetails.telephone && <a href={`tel:${footerDetails.telephone}`} className="block text-foreground-accent hover:text-foreground mt-1">Telepon: {footerDetails.telephone}</a>}
 

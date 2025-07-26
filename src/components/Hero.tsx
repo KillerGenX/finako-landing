@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
 
     {/* Tombol Kedua (Secondary CTA) */}
     <a 
-      href="/demo"
+      href="#cta"
       className="manrope w-full sm:w-auto text-foreground bg-white hover:bg-hero-background px-8 py-3.5 rounded-full transition-colors font-semibold border border-gray-300 shadow-sm"
     >
       Jadwalkan Demo
