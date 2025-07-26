@@ -24,20 +24,41 @@ const Hero: React.FC = () => {
                 <h1 className="text-4xl md:text-6xl md:leading-tight font-bold text-foreground max-w-lg md:max-w-2xl mx-auto">{heroDetails.heading}</h1>
                 <p className="mt-4 text-foreground max-w-lg mx-auto">{heroDetails.subheading}</p>
                 <div className="mt-6 flex flex-col sm:flex-row items-center sm:gap-4 w-fit mx-auto">
-                    <AppStoreButton dark />
-                    <PlayStoreButton dark />
+                <a 
+      href="/register" 
+      className="manrope w-full sm:w-auto text-white bg-primary hover:bg-secondary px-8 py-3.5 rounded-full transition-colors font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+    >
+      Daftar Sekarang
+    </a>
+
+    {/* Tombol Kedua (Secondary CTA) */}
+    <a 
+      href="/demo"
+      className="manrope w-full sm:w-auto text-foreground bg-white hover:bg-hero-background px-8 py-3.5 rounded-full transition-colors font-semibold border border-gray-300 shadow-sm"
+    >
+      Jadwalkan Demo
+    </a>
                 </div>
-                <Image
-                    src={heroDetails.centerImageSrc}
-                    width={384}
-                    height={340}
-                    quality={100}
-                    sizes="(max-width: 768px) 100vw, 384px"
-                    priority={true}
-                    unoptimized={true}
-                    alt="app mockup"
-                    className='relative mt-12 md:mt-16 mx-auto z-10'
-                />
+                <div className="relative mt-12 md:mt-16 flex justify-center items-center">
+  
+  {/* --- LAKUKAN TES DI SINI --- */}
+  <div 
+  className="absolute w-[400px] h-[400px] -translate-y-1/4 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/30 to-transparent blur-3xl -z-10"
+></div>
+
+  {/* Gambar Mockup */}
+  <Image
+    src={heroDetails.centerImageSrc}
+    width={384}
+    height={340}
+    quality={100}
+    sizes="(max-width: 768px) 100vw, 384px"
+    priority={true}
+    unoptimized={true}
+    alt="Mockup Aplikasi Finako"
+    className="relative z-10"
+  />
+</div>
             </div>
         </section>
     );

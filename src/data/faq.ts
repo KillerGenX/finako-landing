@@ -1,25 +1,24 @@
 import { IFAQ } from "@/types";
-import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
-    {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
-    },
-    {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
-    },
-    {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
-    },
-    {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
-    },
-    {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
-    }
+  {
+    question: 'Apakah Finako bisa digunakan di HP atau tablet saya?',
+    answer: 'Tentu saja. Finako adalah aplikasi berbasis web, artinya Anda bisa mengaksesnya dari perangkat apa saja yang memiliki browser, seperti HP Android, iPhone, tablet, laptop, atau komputer kasir.',
+  },
+  {
+    question: 'Apakah data bisnis saya aman?',
+    answer: 'Keamanan data Anda adalah prioritas utama kami. Semua data disimpan di server cloud yang aman dengan standar enkripsi terkini. Hanya Anda yang memiliki akses penuh ke data bisnis Anda.',
+  },
+  {
+    question: 'Saya tidak terlalu paham teknologi, apakah akan sulit?',
+    answer: 'Tidak sama sekali. Finako dirancang khusus agar sangat mudah digunakan. Tampilannya bersih dan intuitif, sehingga Anda atau karyawan Anda bisa langsung menggunakannya dengan sedikit atau tanpa pelatihan.',
+  },
+  {
+    question: 'Bagaimana jika saya butuh bantuan atau ada masalah?',
+    answer: 'Kami siap membantu! Untuk pengguna paket Basic, kami menyediakan grup konsultasi via WhatsApp. Untuk pengguna paket Pro dan Enterprise, kami menyediakan dukungan prioritas untuk memastikan bisnis Anda selalu berjalan lancar.',
+  },
+  {
+    question: 'Apakah ada biaya tersembunyi selain biaya langganan?',
+    answer: 'Tidak ada. Harga yang kami tawarkan transparan. Anda hanya membayar biaya langganan bulanan atau tahunan sesuai paket yang Anda pilih, tanpa ada biaya tambahan tersembunyi.',
+  },
 ];

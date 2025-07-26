@@ -1,22 +1,30 @@
-import { BsBarChartFill, BsFillStarFill } from "react-icons/bs";
-import { PiGlobeFill } from "react-icons/pi";
-
+// 1. Impor ikon-ikon baru yang lebih sesuai
+import { FiClock, FiMessageSquare, FiTrendingUp } from "react-icons/fi";
 import { IStats } from "@/types";
 
+// 2. Definisikan statistik baru yang relevan untuk Finako
 export const stats: IStats[] = [
-    {
-        title: "20M+",
-        icon: <BsBarChartFill size={34} className="text-blue-500" />,
-        description: "Transactions processed securely every day, providing real-time insights."
-    },
-    {
-        title: "5.0",
-        icon: <BsFillStarFill size={34} className="text-yellow-500" />,
-        description: "Star rating, consistently maintained across app stores."
-    },
-    {
-        title: "200+ ",
-        icon: <PiGlobeFill size={34} className="text-green-600" />,
-        description: "Financial Institutions, seamlessly integrated, so you can manage all accounts."
-    }
+  // STATISTIK 1: FOKUS PADA KEMUDAHAN
+  {
+    title: "< 5 Menit",
+    // Gunakan ikon jam dan warna primary kita
+    icon: <FiClock size={34} className="text-primary" />,
+    description: "Waktu yang dibutuhkan dari daftar hingga Anda siap mencatat penjualan pertama Anda."
+  },
+  
+  // STATISTIK 2: FOKUS PADA DUKUNGAN
+  {
+    title: "24/7",
+    // Gunakan ikon pesan dan warna primary kita
+    icon: <FiMessageSquare size={34} className="text-primary" />,
+    description: "Dukungan komunitas via grup WhatsApp. Kami ada saat bisnis Anda membutuhkan kami."
+  },
+
+  // STATISTIK 3: FOKUS PADA PERTUMBUHAN BERSAMA
+  {
+    title: "100%",
+    // Gunakan ikon tren naik dan warna primary kita
+    icon: <FiTrendingUp size={34} className="text-primary" />,
+    description: "Komitmen kami untuk terus mengembangkan fitur berdasarkan masukan dari pengusaha seperti Anda."
+  }
 ];

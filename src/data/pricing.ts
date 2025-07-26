@@ -1,37 +1,40 @@
 import { IPricing } from "@/types";
 
 export const tiers: IPricing[] = [
-    {
-        name: 'Starter',
-        price: 29,
-        features: [
-            'Basic cloud integration',
-            'Up to 5 team members',
-            '20GB storage',
-            'Email support',
-        ],
-    },
-    {
-        name: 'Pro',
-        price: 99,
-        features: [
-            'Advanced cloud integration',
-            'Up to 20 team members',
-            '100GB storage',
-            'Priority email & phone support',
-            'Advanced analytics',
-        ],
-    },
-    {
-        name: 'Enterprise',
-        price: 'Custom',
-        features: [
-            'Full cloud integration',
-            'Unlimited team members',
-            'Unlimited storage',
-            '24/7 dedicated support',
-            'Custom solutions',
-            'On-site training',
-        ],
-    },
-]
+  // PAKET 1: BASIC
+  {
+    name: 'Basic',
+    price: 29000, // Gunakan format angka
+    features: [
+      '1 Outlet',
+      '2 Pengguna ',
+      'Maksimal 25 Produk',
+      'Laporan Penjualan Dasar',
+      'Fitur Absensi Pegawai'
+    ],
+  },
+  // PAKET 2: PRO (Akan di-highlight otomatis)
+  {
+    name: 'Pro',
+    price: 79000, // Gunakan format angka
+    features: [
+      'Semua fitur di paket Basic',
+      'Mendukung hingga 5 Outlet',
+      '10 Pengguna',
+      'Produk dengan Varian',
+      'Maksimal 50 Produk',
+    ],
+  },
+  // PAKET 3: ENTERPRISE
+  {
+    name: 'Enterprise',
+    price: 129000, // Gunakan format angka
+    features: [
+      'Semua fitur di paket Pro',
+      'Mendukung hingga 10 Outlet',
+      '20 Pengguna',
+      'Produk Komposit & Stok Bahan Baku',
+      'Dukungan Prioritas',
+    ],
+  },
+];

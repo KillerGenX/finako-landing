@@ -29,10 +29,11 @@ export interface IFAQ {
 
 export interface ITestimonial {
     name: string;
-    role: string;
-    message: string;
-    avatar: string;
-}
+    businessName: string; // Mengganti 'role'
+    location: string;     // Menambahkan lokasi
+    quote: string;        // Mengganti 'message' agar lebih sesuai
+    avatarSrc: string;      // Mengganti 'avatar' agar lebih deskriptif
+  }
 
 export interface IStats {
     title: string;

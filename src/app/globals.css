@@ -3,14 +3,15 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --primary: #FED835;
-  --secondary: #304fff;
+  --background: #FFFFFF;        /* Latar belakang utama: Putih Bersih */
+  --foreground: #2B3440;        /* Warna teks utama: Abu-abu Gelap (Neutral kita) */
+  --primary: #14B8A6;           /* Warna Primer: Green Teal */
+  --secondary: #0D9488;         /* Warna Sekunder: Green Teal lebih gelap */
 
-  --primary-accent: #e5c230;
-  --foreground-accent: #454545;
-  --hero-background: #F3F3F5;
+  /* Variabel Aksen dari Template Asli, kita adaptasi */
+  --primary-accent: #2DD4BF;      /* Warna Aksen: Teal yang lebih cerah */
+  --foreground-accent: #4a5568;  /* Warna teks sekunder/abu-abu (Tailwind's Gray 600) */
+  --hero-background: #F9FAFB;      /* Latar Hero Section: Abu-abu Sangat Muda (Base-200 kita) */
 }
 
 html {

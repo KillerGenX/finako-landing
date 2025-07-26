@@ -1,12 +1,12 @@
 export const siteDetails = {
-    siteName: 'Finwise',
-    siteUrl: 'https://finwise-omega.vercel.app/',
+    siteName: 'Finako',
+    siteUrl: 'https://finako.com',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'Finako - Aplikasi Kasir (POS) untuk UMKM Indonesia',
+        description: 'Finako adalah aplikasi kasir yang ramah dan modern, dirancang untuk membantu warung, kafe, dan restoran mengelola bisnis dengan lebih mudah.',
     },
-    language: 'en-us',
-    locale: 'en-US',
-    siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`, // or use a string for the logo e.g. "TechStartup"
+    language: 'id-ID',
+    locale: 'id-ID',
+    siteLogo: 'Finako', 
     googleAnalyticsId: '', // e.g. G-XXXXXXX,
 }

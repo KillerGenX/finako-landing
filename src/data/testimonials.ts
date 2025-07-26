@@ -1,23 +1,28 @@
 import { ITestimonial } from "@/types";
-import { siteDetails } from "./siteDetails";
 
 export const testimonials: ITestimonial[] = [
-    {
-        name: 'John Smith',
-        role: 'CEO at Company',
-        message: `${siteDetails.siteName}'s AI-driven insights have transformed how we approach financial planning for our clients. It's an invaluable resource in the modern financial landscape.`,
-        avatar: '/images/testimonial-1.webp',
-    },
-    {
-        name: 'Jane Doe',
-        role: 'CTO at Startup',
-        message: `As a CTO, I'm impressed by ${siteDetails.siteName}'s robust security measures and seamless integrations. It's rare to find an app that balances user-friendliness with such advanced technology.`,
-        avatar: '/images/testimonial-2.webp',
-    },
-    {
-        name: 'Emily Johnson',
-        role: 'Product Manager',
-        message: `${siteDetails.siteName} is revolutionizing personal finance management. Its intuitive design and powerful features make it an indispensable tool for anyone serious about financial growth.`,
-        avatar: '/images/testimonial-3.webp',
-    },
+  // Testimoni 1
+  {
+    name: 'Budi Santoso',
+    businessName: 'Pemilik Kopi Senja',
+    location: 'Jakarta',
+    quote: 'Sejak pakai Finako, rekap penjualan harian jadi otomatis dan rapi. Waktu saya jadi lebih banyak untuk mikirin resep kopi baru!',
+    avatarSrc: '/images/testimonial-1.webp', // Menggunakan gambar lama
+  },
+  // Testimoni 2
+  {
+    name: 'Siti Aminah',
+    businessName: 'Warung Makan Bu Siti',
+    location: 'Bandung',
+    quote: 'Dulu sering salah catat pesanan pas lagi ramai. Sekarang pakai Finako, semua pesanan akurat, pelanggan senang, dan saya bisa lihat langsung menu apa yang paling laku.',
+    avatarSrc: '/images/testimonial-2.webp', // Menggunakan gambar lama
+  },
+  // Testimoni 3
+  {
+    name: 'Ahmad Maulana',
+    businessName: 'Bakso Mas Ahmad',
+    location: 'Surabaya',
+    quote: 'Fitur manajemen stoknya juara! Saya jadi tahu kapan harus belanja bahan baku, nggak ada lagi cerita kehabisan bakso di akhir pekan. Benar-benar bantu mengurangi kerugian.',
+    avatarSrc: '/images/testimonial-3.webp', // Menggunakan gambar lama
+  },
 ];

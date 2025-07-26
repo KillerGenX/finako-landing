@@ -1,6 +1,7 @@
 export const ctaDetails = {
-    heading: 'Join Over 1 Million Users To Transform Your Finances',
-    subheading: 'Your journey to financial freedom starts here. Download Finwise today and take the first step towards a brighter financial future!',
+    heading: 'Bangun Bisnis Kuliner yang Anda Impikan.',
+    subheading: 'Jangan biarkan administrasi yang rumit menghalangi visi Anda. Ambil langkah pertama untuk operasional yang lebih efisien dan profesional bersama Finako.',
+    // Kita tidak butuh URL App Store, tapi kita biarkan saja propertinya agar tidak error
     appStoreUrl: '#',
     googlePlayUrl: '#'
-}
+  };

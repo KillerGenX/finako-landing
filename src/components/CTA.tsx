@@ -17,10 +17,14 @@ const CTA: React.FC = () => {
 
                         <p className="mx-auto max-w-xl md:px-5">{ctaDetails.subheading}</p>
 
-                        <div className="mt-4 flex flex-col sm:flex-row items-center sm:gap-4">
-                        <AppStoreButton />
-                        <PlayStoreButton />
-                        </div>
+                        <div className="mt-8">
+  <a 
+    href="/register" // Mengarah ke halaman registrasi
+    className="manrope text-black bg-primary hover:bg-primary-accent px-8 py-4 rounded-full transition-colors font-semibold shadow-lg text-lg"
+  >
+    Daftar & Mulai Sekarang
+  </a>
+</div>
                     </div>
                 </div>
             </div>

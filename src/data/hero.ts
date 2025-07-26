@@ -1,5 +1,7 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
-    centerImageSrc: '/images/hero-mockup.webp',
+    heading: 'Fokus ke Rasa, Bukan Kertas-Kertas.',
+    
+    // Sub-headline yang jelas mendefinisikan Finako dan target pasarnya
+    subheading: 'Finako adalah aplikasi kasir (POS) ramah dan modern yang dirancang untuk membantu warung, kafe, dan restoran seperti Anda berkembang di era digital.',
+    centerImageSrc: '/images/hero-mockup.png',
 }
