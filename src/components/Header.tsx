@@ -36,7 +36,8 @@ const Header: React.FC = () => {
                     <ul className="hidden md:flex space-x-6">
                         {menuItems.map(item => (
                             <li key={item.text}>
-                                <Link href={item.url} className="text-foreground hover:text-foreground-accent transition-colors">
+                                <Link href={item.url} target={item.url.startsWith('http') ? '_blank' : '_self'}
+    rel="noopener noreferrer" className="text-foreground hover:text-foreground-accent transition-colors" >
                                     {item.text}
                                 </Link>
                             </li>
@@ -82,7 +83,8 @@ const Header: React.FC = () => {
                     <ul className="flex flex-col space-y-4 pt-1 pb-6 px-6">
                         {menuItems.map(item => (
                             <li key={item.text}>
-                                <Link href={item.url} className="text-foreground hover:text-primary block" onClick={toggleMenu}>
+                                <Link href={item.url} target={item.url.startsWith('http') ? '_blank' : '_self'}
+    rel="noopener noreferrer" className="text-foreground hover:text-primary block" onClick={toggleMenu}>
                                     {item.text}
                                 </Link>
                             </li>

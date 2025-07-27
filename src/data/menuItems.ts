@@ -12,5 +12,9 @@ export const menuItems: IMenuItem[] = [
     {
         text: "Testimoni",
         url: "#testimonials"
+    },
+    {
+        text: "Blog",
+        url: "https://blog.finako.app"
     }
 ];

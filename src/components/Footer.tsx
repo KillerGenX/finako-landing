@@ -33,7 +33,8 @@ const Footer: React.FC = () => {
           <ul className="text-foreground-accent">
             {footerDetails.quickLinks.map(link => (
               <li key={link.text} className="mb-2">
-                <Link href={link.url} className="hover:text-foreground">{link.text}</Link>
+                <Link href={link.url} className="hover:text-foreground" target={link.url.startsWith('http') ? '_blank' : '_self'}
+    rel="noopener noreferrer">{link.text}</Link>
               </li>
             ))}
           </ul>

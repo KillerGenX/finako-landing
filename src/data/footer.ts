@@ -13,6 +13,7 @@ export const footerDetails: {
   // Sesuaikan Quick Links
   quickLinks: [
     { text: "Fitur", url: "#features" },
+    { text: "Blog", url: "https://blog.finako.app" },
     { text: "Harga", url: "#pricing" },
     { text: "Testimoni", url: "#testimonials" },
     { text: "FAQ", url: "#faq" },
