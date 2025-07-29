@@ -69,7 +69,7 @@ const SyaratKetentuanPage: React.FC = () => {
 
           <h3>10. Kontak Kami</h3>
           <p>
-            Jika Anda memiliki pertanyaan mengenai Ketentuan Penggunaan ini, silakan hubungi kami melalui email di <a href="mailto:dukungan@finako.com">dukungan@finako.com</a>.
+            Jika Anda memiliki pertanyaan mengenai Ketentuan Penggunaan ini, silakan hubungi kami melalui email di <a href="mailto:cs@finako.app">cs@finako.app</a>.
           </p>
 
         </div>

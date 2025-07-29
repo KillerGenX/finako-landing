@@ -19,7 +19,7 @@ const CTA: React.FC = () => {
 
                         <div className="mt-8">
   <a 
-    href="/register" // Mengarah ke halaman registrasi
+    href="https://pos.finako.app/register" // Mengarah ke halaman registrasi
     className="manrope text-black bg-primary hover:bg-primary-accent px-8 py-4 rounded-full transition-colors font-semibold shadow-lg text-lg"
   >
     Daftar & Mulai Sekarang

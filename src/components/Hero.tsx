@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
                 <p className="mt-4 text-foreground max-w-lg mx-auto">{heroDetails.subheading}</p>
                 <div className="mt-6 flex flex-col sm:flex-row items-center sm:gap-4 w-fit mx-auto">
                 <a 
-      href="/register" 
+      href="https://pos.finako.app/register" 
       className="manrope w-full sm:w-auto text-white bg-primary hover:bg-secondary px-8 py-3.5 rounded-full transition-colors font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
     >
       Daftar Sekarang

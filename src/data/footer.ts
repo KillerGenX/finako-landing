@@ -20,15 +20,15 @@ export const footerDetails: {
   ],
 
   // Masukkan detail kontak Finako
-  email: 'dukungan@finako.com',
-  telephone: '+62 812-3456-7890', // Gunakan format Indonesia
+  email: 'cs@finako.app',
+  telephone: '+62 821-331-331-20', // Gunakan format Indonesia
 
   // Masukkan link media sosial Anda. Hapus atau beri komentar pada yang tidak Anda miliki.
   socials: {
     // github: '#',
-    twitter: '#',
+    //twitter: '#',
     facebook: '#',
-    // linkedin: '#',
+    linkedin: 'https://www.linkedin.com/company/finako-app',
     instagram: '#',
   }
 };

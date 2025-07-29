@@ -22,8 +22,8 @@ const FAQ: React.FC = () => {
             Tidak menemukan jawaban yang Anda cari? Jangan ragu untuk menghubungi kami.
           </p>
           {/* Ganti dengan email atau kontak Finako */}
-          <a href="mailto:dukungan@finako.com" className="mt-3 block text-xl lg:text-3xl text-primary font-semibold hover:underline text-center lg:text-left">
-            dukungan@finako.com
+          <a href="mailto:cs@finako.app" className="mt-3 block text-xl lg:text-3xl text-primary font-semibold hover:underline text-center lg:text-left">
+            cs@finako.app
           </a>
         </div>
 
