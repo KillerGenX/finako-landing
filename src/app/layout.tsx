@@ -36,6 +36,7 @@ export const metadata: Metadata = {
     description: siteDetails.metadata.description,
     images: ['/images/twitter-image.jpg'],
   },
+  icons: siteDetails.siteLogo,
 };
 
 export default function RootLayout({

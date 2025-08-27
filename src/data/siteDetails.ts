@@ -7,6 +7,6 @@ export const siteDetails = {
     },
     language: 'id-ID',
     locale: 'id-ID',
-    siteLogo: 'Finako', 
+    siteLogo: '/finako.svg',
     googleAnalyticsId: '', // e.g. G-XXXXXXX,
 }

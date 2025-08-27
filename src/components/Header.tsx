@@ -43,6 +43,12 @@ const Header: React.FC = () => {
                             </li>
                         ))}
                         <li>
+                            <Link href="/about-team" className="text-foreground hover:text-foreground-accent transition-colors">
+                                About Team
+                            </Link>
+                        </li>
+
+                        <li>
                             <Link href="https://pos.finako.app/" className="text-black bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors">
                                 Login
                             </Link>
@@ -89,6 +95,11 @@ const Header: React.FC = () => {
                                 </Link>
                             </li>
                         ))}
+                        <li>
+                            <Link href="/about-team" className="text-foreground hover:text-primary block" onClick={toggleMenu}>
+                                About Team
+                            </Link>
+                        </li>
                         <li>
                             <Link href="https://pos.finako.app/" className="text-black bg-primary hover:bg-primary-accent px-5 py-2 rounded-full block w-fit" onClick={toggleMenu}>
                                 Login
