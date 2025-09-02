@@ -36,7 +36,11 @@ export const metadata: Metadata = {
     description: siteDetails.metadata.description,
     images: ['/images/twitter-image.jpg'],
   },
-  icons: siteDetails.siteLogo,
+  icons: {
+    icon: '/favicon.ico',      // Favicon tradisional
+    shortcut: '/icon.svg',   // Ikon modern format SVG
+    apple: '/apple-touch-icon.png', // Ikon untuk perangkat Apple
+  },
 };
 
 export default function RootLayout({
