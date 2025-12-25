@@ -12,11 +12,11 @@ export const footerDetails: {
   
   // Sesuaikan Quick Links
   quickLinks: [
-    { text: "Fitur", url: "#features" },
+    { text: "Fitur", url: "https://www.finako.app/#features" },
     { text: "Blog", url: "https://blog.finako.app" },
-    { text: "Harga", url: "#pricing" },
-    { text: "Testimoni", url: "#testimonials" },
-    { text: "FAQ", url: "#faq" },
+    { text: "Harga", url: "https://www.finako.app/#pricing" },
+    { text: "Testimoni", url: "https://www.finako.app/#testimonials" },
+    { text: "FAQ", url: "https://www.finako.app/#faq" },
   ],
 
   // Masukkan detail kontak Finako

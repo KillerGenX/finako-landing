@@ -33,7 +33,7 @@ const PricingColumn: React.FC<Props> = ({ tier, highlight }: Props) => {
           </span>
           {typeof price === 'number' && <span className="text-lg font-normal text-gray-600"> / bulan</span>}
         </p>
-        <NextLink  href="/register" className={clsx("w-full py-3 px-4 rounded-full transition-colors font-semibold", { 
+        <NextLink  href="https://pos.finako.app/register" className={clsx("w-full py-3 px-4 rounded-full transition-colors font-semibold", { 
           "bg-primary hover:bg-secondary text-white": highlight, // Perbaiki warna tombol highlight
           "bg-hero-background hover:bg-gray-200": !highlight 
         })}>
