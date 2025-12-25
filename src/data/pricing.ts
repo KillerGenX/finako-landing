@@ -4,7 +4,7 @@ export const tiers: IPricing[] = [
   // PAKET 1: BASIC
   {
     name: 'Basic',
-    price: 29000, // Gunakan format angka
+    price: 39000, // Gunakan format angka
     features: [
       '1 Outlet',
       '2 Pengguna ',
@@ -16,7 +16,7 @@ export const tiers: IPricing[] = [
   // PAKET 2: PRO (Akan di-highlight otomatis)
   {
     name: 'Pro',
-    price: 79000, // Gunakan format angka
+    price: 89000, // Gunakan format angka
     features: [
       'Semua fitur di paket Basic',
       'Mendukung hingga 5 Outlet',
@@ -28,7 +28,7 @@ export const tiers: IPricing[] = [
   // PAKET 3: ENTERPRISE
   {
     name: 'Enterprise',
-    price: 129000, // Gunakan format angka
+    price: 139000, // Gunakan format angka
     features: [
       'Semua fitur di paket Pro',
       'Mendukung hingga 10 Outlet',
