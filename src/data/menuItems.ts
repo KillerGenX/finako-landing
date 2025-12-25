@@ -3,15 +3,15 @@ import { IMenuItem } from "@/types";
 export const menuItems: IMenuItem[] = [
     {
         text: "Fitur",
-        url: "https://www.finako.app/#features"
+        url: "/#features"
     },
     {
         text: "Harga",
-        url: "https://www.finako.app/#pricing"
+        url: "/#pricing"
     },
     {
         text: "Testimoni",
-        url: "https://www.finako.app/#testimonials"
+        url: "/#testimonials"
     },
     {
         text: "Blog",
